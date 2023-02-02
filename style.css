@@ -1,0 +1,39 @@
+img{
+    height: 100%;
+    width: 100%;
+}
+.row{
+    height: 400px;
+    margin-bottom: 5px;
+}
+.secoend-row, .third-row{
+display: flex;
+
+}
+.secoend-row{
+    height: 400px;
+    margin-bottom: 5px;
+    gap: 5px;
+}
+
+
+.secoend-row-theadr-containa div{
+    height:calc(50% - 5px/2)
+    
+}
+
+.third-row{
+    flex: 1;
+    gap: 5px;
+}
+.secoend-row-theadr-containa{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.third-row-scoend-containar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
